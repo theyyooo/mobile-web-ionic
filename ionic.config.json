@@ -1,0 +1,7 @@
+{
+  "name": "Discotheque",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

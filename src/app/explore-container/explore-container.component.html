@@ -1,0 +1,10 @@
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor = "let uneMusique of list">
+    <ion-card-header>
+      <img width="400px" src="{{uneMusique.image}}"/>
+      <ion-card-title>{{uneMusique.title}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>{{uneMusique.artist}}</ion-card-content>
+  </ion-card>
+</ion-content>
